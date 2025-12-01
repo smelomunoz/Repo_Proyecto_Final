@@ -1,0 +1,18 @@
+{
+  "model_name": "modelo_clasificacion_final",
+  "accuracy": 0.8091694671147384,
+  "precision": 0.6310517529215359,
+  "recall": 0.6816952209197475,
+  "f1_score": 0.6553966189856957,
+  "auc_roc": 0.8919289142009661,
+  "confusion_matrix": [
+    [
+      2615,
+      442
+    ],
+    [
+      353,
+      756
+    ]
+  ]
+}

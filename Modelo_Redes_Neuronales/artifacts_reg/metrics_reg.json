@@ -1,0 +1,12 @@
+{
+  "model_name": "modelo_regresion_final",
+  "nombre_modelo_definitivo": "baseline",
+  "mae_log": 0.28910598158836365,
+  "mse_log": 0.17237938940525055,
+  "rmse_log": 0.415185969663295,
+  "mae_price": 173.30201721191406,
+  "mse_price": 3195718.0,
+  "rmse_price": 1787.65712596124,
+  "sigma_log_def": 0.47827744483947754,
+  "k_default": 0.5
+}

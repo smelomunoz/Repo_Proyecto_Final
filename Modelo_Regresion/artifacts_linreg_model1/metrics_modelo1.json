@@ -1,0 +1,13 @@
+{
+  "model_name": "modelo1_regresion_lineal",
+  "r2_train": 0.6224769780547696,
+  "r2_test": 0.6239926328622278,
+  "rmse_train_log": 0.47168188810117057,
+  "rmse_test_log": 0.47452116716389225,
+  "mae_train_log": 0.3684116140465503,
+  "mae_test_log": 0.369976702446311,
+  "rmse_test_price": 154.86189016138005,
+  "mae_test_price": 82.905176618411,
+  "rmse_cv_mean": 0.48233460437308606,
+  "rmse_cv_std": 0.017184000984702553
+}
