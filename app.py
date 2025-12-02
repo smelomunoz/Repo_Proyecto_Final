@@ -17,12 +17,17 @@ from dash import Dash, dcc, html, Input, Output
 
 # CAMBIO: dejo todas las rutas juntas para que,
 # si algo cambia, solo toques este bloque.
-DF_REG_PATH = "df_cleaned.csv"  # datos base modelos 1 y 2
-DF_CLF_PATH = "Modelo_Clasificacion/df_modelo3_clasificacion.csv"
+from pathlib import Path  # pon este import arriba, junto a los demás
 
-ART_DIR_LIN = "Modelo_Regresion/artifacts_linreg_model1"
-ART_DIR_REG = "Modelo_Redes_Neuronales/artifacts_reg"
-ART_DIR_CLF = "Modelo_Clasificacion/artifacts_clf"
+# === Rutas robustas, siempre relativas a app.py ===
+BASE_DIR = Path(__file__).resolve().parent  # carpeta donde está app.py
+
+DF_REG_PATH = BASE_DIR / "df_cleaned.csv"  # datos base modelos 1 y 2
+DF_CLF_PATH = BASE_DIR / "Modelo_Clasificacion" / "df_modelo3_clasificacion.csv"
+
+ART_DIR_LIN = BASE_DIR / "Modelo_Regresion" / "artifacts_linreg_model1"
+ART_DIR_REG = BASE_DIR / "Modelo_Redes" / "artifacts_reg"
+ART_DIR_CLF = BASE_DIR / "Modelo_Clasificacion" / "artifacts_clf"
 
 
 # =====================================================
