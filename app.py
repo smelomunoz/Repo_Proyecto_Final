@@ -17,7 +17,7 @@ from dash import Dash, dcc, html, Input, Output
 
 # CAMBIO: dejo todas las rutas juntas para que,
 # si algo cambia, solo toques este bloque.
-DF_REG_PATH = "Repo_Proyecto_Final/df_cleaned.csv"  # datos base modelos 1 y 2
+DF_REG_PATH = "df_cleaned.csv"  # datos base modelos 1 y 2
 DF_CLF_PATH = "Repo_Proyecto_Final/Modelo_Clasificacion/df_modelo3_clasificacion.csv"
 
 ART_DIR_LIN = "Repo_Proyecto_Final/Modelo_Regresion/artifacts_linreg_model1"
