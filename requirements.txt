@@ -1,0 +1,10 @@
+dash
+pandas
+numpy
+plotly
+tensorflow==2.15.0
+scikit-learn
+joblib
+gunicorn
+sklearn.model_selection
+seaborn
