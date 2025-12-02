@@ -18,11 +18,11 @@ from dash import Dash, dcc, html, Input, Output
 # CAMBIO: dejo todas las rutas juntas para que,
 # si algo cambia, solo toques este bloque.
 DF_REG_PATH = "df_cleaned.csv"  # datos base modelos 1 y 2
-DF_CLF_PATH = "Repo_Proyecto_Final/Modelo_Clasificacion/df_modelo3_clasificacion.csv"
+DF_CLF_PATH = "Modelo_Clasificacion/df_modelo3_clasificacion.csv"
 
-ART_DIR_LIN = "Repo_Proyecto_Final/Modelo_Regresion/artifacts_linreg_model1"
-ART_DIR_REG = "Repo_Proyecto_Final/Modelo_Redes_Neuronales/artifacts_reg"
-ART_DIR_CLF = "Repo_Proyecto_Final/Modelo_Clasificacion/artifacts_clf"
+ART_DIR_LIN = "Modelo_Regresion/artifacts_linreg_model1"
+ART_DIR_REG = "Modelo_Redes_Neuronales/artifacts_reg"
+ART_DIR_CLF = "Modelo_Clasificacion/artifacts_clf"
 
 
 # =====================================================
